@@ -261,6 +261,10 @@
     transition: all 2s linear;
 }
 
+.work-img {
+    width: 100%;
+}
+
 .work-overlay {
     position: absolute;
     top: 0;
@@ -318,4 +322,14 @@
         font-size: 14px;
     }
     
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-expand-sm{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
 }
