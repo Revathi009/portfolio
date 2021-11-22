@@ -37,5 +37,15 @@ $(document).ready(function(){
     });
 });
 
-
+$('#tags a').tagcloud({
+    size: {
+        start: 12,
+        end: 55,
+        unit: 'pt'
+    },
+    color: {
+        start: '#aaa',
+        end: '#080'
+    }
+})
    
